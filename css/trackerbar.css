@@ -1,0 +1,38 @@
+.ProgressBar, .ProgressBar .Step {
+  height: 24px;
+  line-height: 24px;
+}
+.ProgressBar .Step {
+  text-align: center;
+  position: relative;
+  float: left;
+}
+.ProgressBar .Arrow {
+  position: absolute;
+  height: 24px;
+  width: 18px;
+  top: 0;
+  right: -17px;
+  overflow: hidden;
+}
+.ProgressBar .Arrow-Head, .ProgressBar .Arrow-Head DIV {
+  border-width: 15px;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.ProgressBar .Arrow-Head {
+  border-color: transparent transparent transparent #fff;
+  left: 2px;
+  top: 50%;
+  margin-top: -15px;
+}
+.ProgressBar .Arrow-Head DIV {
+  left: -18px;
+  top: -15px;
+}
+#trackerBar {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}

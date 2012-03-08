@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- Title of course is here -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Distance Learning Course</title>
+	<meta name="course" content="Using DL HTML Template">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+	<![endif]-->
+	<!-- Le styles -->
+	<link href="../css/bootstrap.css" rel="stylesheet">
+	<link href="../css/responsive.css" rel="stylesheet">
+	<link href="../css/prettify.css" rel="stylesheet">
+	<!-- Le fav and touch icons -->
+	<link rel="shortcut icon" href="../img/favicon.ico">
+	<!-- apple icons
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+</head>
+<body onload="prettyPrint();">
+<!-- Attachments Modal -->
+	<div id="resourcesModal" class="modal hide fade" style="display: none;"></div>
+<!-- Top Nav Bar -->
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<!-- Title of course is here -->
+				<a class="brand" href="#">DL HTML Template Docs</a> 
+				<div id="nav-links" class="nav-collapse">
+					<ul class="nav">
+						<li><a id="resourceLink" href="#resourcesModal" data-toggle="modal">Resources</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Feedback</a></li>
+						<li><a href="#">Exit</a></li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
+<!-- Sub Navigation -->
+	<div id="subnav" class="subnav subnav-fixed"></div>
+<!-- Main Content -->
+	<div id="dl-main" class="container">
+		<h1>Introduction</h1>
+		<div id="console">
+			
+		</div>
+		<div class="row">
+			<div class="span12">
+				<h3>One day in the Pearson offices . . . </h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span3">
+				<p>Hey, it's the new HTML5 template for building a course. Let me play with it and build a course.</p>
+			</div>
+			<div class="span3">
+				<p>Typing, typing, change, change ...</p>
+			</div>
+			<div class="span3">
+				<p>Urgh! Nnnnnn!</p>
+			</div>
+			<div class="span3">
+				<p>Ah! What's happening?!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span2">
+				<p>Joe, what have you done?!</p>
+			</div>
+			<div class="span5">
+				<p>Nothing, I was just working with this new template and all of a sudden zombies started invading my cubicle!</p>
+			</div>
+			<div class="span5">
+				<p>These aren't just any zombies Joe; these are coding zombies, born from non-standard coding, sloppy structure and other crimes of humanity. You've unleashed the hordes of Distance Learning hell on our office!</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span3">
+				<p>I'm sorry, I'm sorry! What can I do to send them back where they came from?</p>
+			</div>
+			<div class="span4">
+				<p>There's only way to defeat the undead. You're bad coding brought them here; learning how to code right will banish them! </p>
+			</div>
+			<div class="span2">
+				<p>But I don't even know what I'm doing!</p>
+			</div>
+			<div class="span3">
+				<p>That's obvious, Joe. Fortunately, I'm here to help you out. </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span5">
+				<h2>Structure</h2>
+				<div id="quizArea" class="well">
+					<div id="quiz" class=""></div>
+				</div>
+			</div>
+			<div class="span5">
+				<pre class="prettyprint linenums lang-html">
+&lt;h2&gt;This is some code&lt;/h2&gt;
+&lt;h2&gt;This is some code&lt;/h2&gt;
+				</pre>
+			</div>
+			<div class="span2">
+				<span class="">
+			</div>
+		</div>
+<!-- End Custom Content -->
+<!-- Page Navigation -->
+		<div class="row">
+			<div class="span12">
+				<div class="pull-right" id="page-nav">
+					<div class="btn-group">
+					  <a class="btn" href="#" id="nav-prev"><i class="icon-chevron-left"></i><strong> Previous</strong></a>
+					  <a class="btn" href="#" id="nav-nxt"><strong>Next </strong><i class="icon-chevron-right"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- /container -->
+<!-- Footer -->
+	<footer>
+		<div class="tagline"></div>	
+		<div class="logo"></div>
+	</footer>
+<!-- Le javascript -->
+	<script src="../js/combo.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/dl.min.js"></script>
+	<script src="js/course.js"></script>
+	<script>
+	var con = $('#console');
+	var logit = function (data) {con.html(con.html() + '<br>' + data);};
+	$.ajax({
+		url: 'course/resources.html',
+		success = function (data) {
+			logit(data);
+		}
+	});
+	</script>
+</body>
+</html>
