@@ -1,0 +1,100 @@
+/*Pearson Blue-Cream Template*/
+
+@black: #000;
+@dark-gray: #555;
+@gray: #777;
+@ie-light: '#4152B5';
+@ie-dark: '#333F8C';
+@pearson-color-light: #4152B5;
+@pearson-color: #364395;
+@pearson-color-dark: #333F8C;
+@light-bg: #fbf5ea;
+@medium-bg: #E4D9C9;
+@ie-bg-light: '#fbf5ea';
+@ie-bg-medium: '#E4D9C9';
+@dark-bg: #BAB1A4;
+@darker-bg: #968F85;
+@quiz-info-bg: #EFF1FF;
+@quiz-info-border: #51577F;
+@quiz-alert-bg: #F2DEDE;
+@quiz-alert-border: #B94A48;
+@quiz-success-bg: #DFF0D8;
+@quiz-success-border: #468847;
+@logo: '../img/blue/logo.gif';
+@tagline: '../img/blue/tagline.gif';
+
+
+/*Pearson Orange-Cream Template */
+
+@black: #000;
+@dark-gray: #555;
+@gray: #777;
+@ie-light: '#FF7306';
+@ie-dark: '#D46005';
+@pearson-color-light: #FF7306;
+@pearson-color: #ED6B06;
+@pearson-color-dark: #D46005;
+@light-bg: #fbf5ea;
+@medium-bg: #E4D9C9;
+@ie-bg-light: '#fbf5ea';
+@ie-bg-medium: '#E4D9C9';
+@dark-bg: #BAB1A4;
+@darker-bg: #968F85;
+@quiz-info-bg: #EFF1FF;
+@quiz-info-border: #51577F;
+@quiz-alert-bg: #F2DEDE;
+@quiz-alert-border: #B94A48;
+@quiz-success-bg: #DFF0D8;
+@quiz-success-border: #468847;
+@logo: '../img/orange/logo.gif';
+@tagline: '../img/orange/tagline.gif';
+
+/*Pearson Green-Cream Template*/
+
+@black: #000;
+@dark-gray: #555;
+@gray: #777;
+@ie-light: '#00A36D';
+@ie-dark: '#007D54';
+@pearson-color-light: #00A36D;
+@pearson-color: #008B5D;
+@pearson-color-dark: #007D54;
+@light-bg: #fbf5ea;
+@medium-bg: #E4D9C9;
+@ie-bg-light: '#fbf5ea';
+@ie-bg-medium: '#E4D9C9';
+@dark-bg: #BAB1A4;
+@darker-bg: #968F85;
+@quiz-info-bg: #EFF1FF;
+@quiz-info-border: #51577F;
+@quiz-alert-bg: #F2DEDE;
+@quiz-alert-border: #B94A48;
+@quiz-success-bg: #DFF0D8;
+@quiz-success-border: #468847;
+@logo: '../img/green/logo.gif';
+@tagline: '../img/green/tagline.gif';
+
+/*Pearson Purple-Cream Template*/
+
+@black: #000;
+@dark-gray: #555;
+@gray: #777;
+@ie-light: '#B21652';
+@ie-dark: '#911243';
+@pearson-color-light: #B21652;
+@pearson-color: #9d1348;
+@pearson-color-dark: #911243;
+@light-bg: #fbf5ea;
+@medium-bg: #E4D9C9;
+@ie-bg-light: '#fbf5ea';
+@ie-bg-medium: '#E4D9C9';
+@dark-bg: #BAB1A4;
+@darker-bg: #968F85;
+@quiz-info-bg: #EFF1FF;
+@quiz-info-border: #51577F;
+@quiz-alert-bg: #F2DEDE;
+@quiz-alert-border: #B94A48;
+@quiz-success-bg: #DFF0D8;
+@quiz-success-border: #468847;
+@logo: '../img/purple/logo.gif';
+@tagline: '../img/purple/tagline.gif';

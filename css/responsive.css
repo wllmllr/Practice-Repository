@@ -386,7 +386,7 @@ for @pearson-color and @pearson-color-dark.  */
     margin-bottom: 2px;
   }
   .navbar .nav > li > a:hover, .navbar .dropdown-menu a:hover {
-    background-color: #364395;
+    background-color: #008b5d;
   }
   .navbar .dropdown-menu {
     position: static;
@@ -416,8 +416,8 @@ for @pearson-color and @pearson-color-dark.  */
     float: none;
     padding: 9px 15px;
     margin: 9px 0;
-    border-top: 1px solid #333f8c;
-    border-bottom: 1px solid #333f8c;
+    border-top: 1px solid #007d54;
+    border-bottom: 1px solid #007d54;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
